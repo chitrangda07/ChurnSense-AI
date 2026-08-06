@@ -8,7 +8,7 @@ plotly
 jupyter
 ipykernel
 
-sklearn
+scikit-learn
 openpyxl
 
 scipy
