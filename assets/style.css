@@ -1,0 +1,134 @@
+/* ===========================================
+   Import Font
+=========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html, body, [class*="css"]{
+    font-family: 'Inter', sans-serif;
+}
+
+/* ===========================================
+   Main App
+=========================================== */
+
+.stApp{
+    background:#0F172A;
+}
+
+
+section[data-testid="stSidebar"]{
+    background:#111827;
+    border-right:1px solid #1F2937;
+}
+
+
+
+.custom-card{
+
+    background:#1E293B;
+
+    border:1px solid #334155;
+
+    border-radius:16px;
+
+    padding:24px;
+
+    transition:all .25s ease;
+
+    margin-bottom:20px;
+
+}
+
+.custom-card:hover{
+
+    transform:translateY(-4px);
+
+    border-color:#3B82F6;
+
+    box-shadow:0 12px 30px rgba(59,130,246,.15);
+
+}
+
+.metric-title{
+
+    color:#94A3B8;
+
+    font-size:14px;
+
+    font-weight:500;
+
+}
+
+.metric-value{
+
+    color:white;
+
+    font-size:36px;
+
+    font-weight:700;
+
+    margin-top:8px;
+
+}
+
+.metric-sub{
+
+    color:#3B82F6;
+
+    margin-top:10px;
+
+}
+
+
+
+.stButton button{
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    height:46px;
+
+    font-weight:600;
+
+}
+
+.stButton button:hover{
+
+    background:#1D4ED8;
+
+}
+
+[data-testid="stDataFrame"]{
+
+    border-radius:14px;
+
+    overflow:hidden;
+
+}
+
+
+h1{
+
+    font-size:38px;
+
+    font-weight:700;
+
+}
+
+h2{
+
+    font-weight:600;
+
+}
+
+h3{
+
+    font-weight:600;
+
+}

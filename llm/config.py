@@ -1,0 +1,3 @@
+OPENAI_MODEL = "gpt-5-mini"
+MODEL_VERSION = "1.0"
+MODEL_NAME = "XGBoost"
