@@ -5,25 +5,21 @@ matplotlib
 seaborn
 plotly
 
-jupyter
-ipykernel
-
 scikit-learn
-openpyxl
-
 scipy
 joblib
-shap 
+openpyxl
+
 xgboost
 lightgbm
-
-os 
-python-dotenv
-
-openai
+shap
 
 streamlit
 streamlit-option-menu
 streamlit-shap
+
+openai
+python-dotenv
+
 requests
 Pillow
